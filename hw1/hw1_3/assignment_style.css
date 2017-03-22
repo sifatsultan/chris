@@ -1,0 +1,41 @@
+﻿FormatDisplayWebpage {
+	/*Display white background at this pixcel value*/
+	background-color: white;
+	width: 800px;
+	display: block;
+	/*Pad Text from border at this pixel value*/
+	padding: 20px;
+	/*Pad the border of the margin "bottom" - 400 pixcel*/
+	padding-bottom: 700px;
+	/*Margin of the Thin Lined Border to 1 pixcel size*/
+	border: 2px solid #0D3427;
+	/*Align Margin Box from Window to correct alignment by margin value*/
+	margin: 40px;
+	/*Align Text to the left*/
+	text-align: left;
+
+	
+
+/* Background image ECU.png - top right*/	
+background-image: url("Topboarderimg.png");
+background-repeat: no-repeat;
+background-position:top;
+display: block;
+}
+
+/*Start of Loop - loop each time and display text from XML assignment_1 as defined*/
+
+/*Use Text Tag from XML "assignment_1.xml" and display in below values and posisitons*/
+
+/* Student Form Text Display to the right of image*/
+h2{
+	color: red;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+    left: 0px;
+    top: 40px;
+}
+
+
+/*End Student Form Text Display to the right of image*/

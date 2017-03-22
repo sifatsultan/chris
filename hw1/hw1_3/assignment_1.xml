@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 	<!--XML Document Declaration = version 1.0, Default Character set UTF-8 -->
+
+<!--Execute this XSLT style extenstion using the Display text code -->
+<?xml-stylesheet type="text/xsl" href="assignment_transform_XSLT.xslt"?>
+
+<!--Display Border and Background and Margin-> Send To XSLT For HTML Transformation -->
+
+<!--<FormatDisplayWebpage> -->
+
+<!--Start Stored details of Students> -->
+<Students>
+
+	<Student>
+		<!--Personal Details -->
+		<peronaldetails>
+			<StudentID>10344489</StudentID>
+			<StudentTitle>Mr</StudentTitle>
+			<Surname>Broome</Surname>
+			<PreferredGivenNames>Chris</PreferredGivenNames>
+			<Gender>Male</Gender>
+			<DateOfBirth>29th October 1982</DateOfBirth>
+			<EMail>cmbroome@our.ecu.edu.au</EMail>
+			<PhotoID>ME.jpg</PhotoID>
+		</peronaldetails>
+		<!-- End Personal Details -->
+
+		<addresses>
+			<address>
+				<!--Address Details - Correspondance Address details of Student One> -->
+				<StartDateCorr>26th Febuary 2017</StartDateCorr>
+				<AddressLineOneCorr>Unit 17</AddressLineOneCorr>
+				<AddressLineTwoCorr>2 Molloy Promenade</AddressLineTwoCorr>
+				<AddressLineThreeCorr>N/A</AddressLineThreeCorr>
+				<SuburbCorr>Joondalup</SuburbCorr>
+				<PostCodeCorr type="Post Code">6027</PostCodeCorr>
+				<HomePhoneNoCorr type="Home Phone">No Entry</HomePhoneNoCorr>
+				<WorkPhoneNoCorr type="Work Phone">No Entry</WorkPhoneNoCorr>
+				<MobilePhoneCorr type="Mobile Phone">0424471917</MobilePhoneCorr>
+				<FaxNoCorr type="Fax Number">No Entry</FaxNoCorr>
+			</address>
+
+
+			<!--Address Details - Home Address details of Student One -->
+			<address>
+				<StartDateHome>26th Febuary 2017</StartDateHome>
+				<AddressLineOneHome>Unit 17</AddressLineOneHome>
+				<AddressLineTwoHome>2 Molloy Promenade</AddressLineTwoHome>
+				<AddressLineThreeHome>N/A</AddressLineThreeHome>
+				<SuburbHome>Joondalup</SuburbHome>
+				<PostCodeHome type="Post COde">6027</PostCodeHome>
+				<HomePhoneNoHome type="Home Phone">No Entry</HomePhoneNoHome>
+				<WorkPhoneNoHome type="Work Phone">No Entry</WorkPhoneNoHome>
+				<MobilePhoneHome type="Mobile Phone">0424471917</MobilePhoneHome>
+				<FaxNoHome type="Fax Number">No Entry</FaxNoHome>
+			</address>
+
+		</addresses>
+
+	</Student>
+	<!--*********************STUDENT TWO ******************************* -->
+
+
+	<Student>
+		<!--Personal Details Student One> -->
+		<StudentID>12244489</StudentID>
+		<StudentTitle>Mss</StudentTitle>
+		<Surname>Wen</Surname>
+		<PreferredGivenNames>Yushi</PreferredGivenNames>
+		<Gender>Female</Gender>
+		<DateOfBirth>27 September 1999</DateOfBirth>
+		<EMail>y.wen@our.ecu.edu.au</EMail>
+		<PhotoID>ECU.png</PhotoID>
+		<!--Address Details - Correspondance Address details of Student One> -->
+		<StartDateCorr>26th Febuary 2017</StartDateCorr>
+		<AddressLineOneCorr>34</AddressLineOneCorr>
+		<AddressLineTwoCorr>Stree Lane</AddressLineTwoCorr>
+		<AddressLineThreeCorr>N/A</AddressLineThreeCorr>
+		<SuburbCorr>Currembine</SuburbCorr>
+		<PostCodeCorr type="Post Code">6027</PostCodeCorr>
+		<HomePhoneNoCorr type="Home Phone">No Entry</HomePhoneNoCorr>
+		<WorkPhoneNoCorr type="Work Phone">No Entry</WorkPhoneNoCorr>
+		<MobilePhoneCorr type="Mobile Phone">0459495548</MobilePhoneCorr>
+		<FaxNoCorr type="Fax Number">No Entry</FaxNoCorr>
+		<!--Address Details - Home Address details of Student One> -->
+		<StartDateHome>26th Febuary 2017</StartDateHome>
+		<AddressLineOneHome>34</AddressLineOneHome>
+		<AddressLineTwoHome>Street Lane</AddressLineTwoHome>
+		<AddressLineThreeHome>N/A</AddressLineThreeHome>
+		<SuburbHome>Currembine</SuburbHome>
+		<PostCodeHome type="Post COde">6027</PostCodeHome>
+		<HomePhoneNoHome type="Home Phone">No Entry</HomePhoneNoHome>
+		<WorkPhoneNoHome type="Work Phone">No Entry</WorkPhoneNoHome>
+		<MobilePhoneHome type="Mobile Phone">0459495548</MobilePhoneHome>
+		<FaxNoHome type="Fax Number">No Entry</FaxNoHome>
+	</Student>
+</Students>
+<!--End Of Display Border and Background and Margin -->
+
+<!--</FormatDisplayWebpage> -->
+
