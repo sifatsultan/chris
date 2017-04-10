@@ -4,8 +4,7 @@
 <?xml-stylesheet type="text/xsl" href="assignment_transform_XSLT.xslt"?>
 
 <!--Declare Document type definition (DTD) -->
-<!--<DOCTYPE Students SYSTEM "assignment_1.dtd">-->
-
+<!DOCTYPE Students SYSTEM "assignment_1.dtd">
 
 <!--Start Stored details of Students> -->
 <Students>
@@ -14,8 +13,7 @@
 
 	<Student>
 		<!--Personal Details -->
-		<peronaldetails>
-			<PhotoID>StudentPhotoID/ME.jpg</PhotoID>
+		<personaldetails>
 			<StudentID>10344489</StudentID>
 			<StudentTitle>Mr</StudentTitle>
 			<Surname>Broome</Surname>
@@ -23,10 +21,11 @@
 			<Gender>Male</Gender>
 			<DateOfBirth>29th October 1982</DateOfBirth>
 			<EMail>cmbroome@our.ecu.edu.au</EMail>
-		</peronaldetails>
+			<PhotoID>StudentPhotoID/ME.jpg</PhotoID>
+		</personaldetails>
 		<!-- End Personal Details -->
 
-		<!-- Student Course Deails -->
+		<!-- Student Course Details -->
 		<CourseDetails>
 
 			<Course>
@@ -102,7 +101,7 @@
 
 	<Student>
 		<!--Personal Details -->
-		<peronaldetails>
+		<personaldetails>
 			<StudentID>12244489</StudentID>
 			<StudentTitle>Mss</StudentTitle>
 			<Surname>Wen</Surname>
@@ -111,7 +110,7 @@
 			<DateOfBirth>27 September 1999</DateOfBirth>
 			<EMail>y.wen@our.ecu.edu.au</EMail>
 			<PhotoID>StudentPhotoID/yushi.jpg</PhotoID>
-		</peronaldetails>
+		</personaldetails>
 		<!-- End Personal Details -->
 
 		<!-- Student Course Deails -->
@@ -174,7 +173,7 @@
 				<AddressLineTwo>Street Lane</AddressLineTwo>
 				<AddressLineThree>N/A</AddressLineThree>
 				<Suburb>Currembine</Suburb>
-				<PostCode type="Post COde">6027</PostCode>
+				<PostCode type="Post Code">6027</PostCode>
 				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
 				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
 				<MobilePhone type="Mobile Phone">0424471916</MobilePhone>
@@ -187,7 +186,7 @@
 
 	<Student>
 		<!--Personal Details -->
-		<peronaldetails>
+		<personaldetails>
 			<StudentID>1322489</StudentID>
 			<StudentTitle>Mr</StudentTitle>
 			<Surname>Sultan</Surname>
@@ -196,7 +195,7 @@
 			<DateOfBirth>27 January 1990</DateOfBirth>
 			<EMail>s.sultan@our.ecu.edu.au</EMail>
 			<PhotoID>StudentPhotoID/Sifat Sultan.jpg</PhotoID>
-		</peronaldetails>
+		</personaldetails>
 		<!-- End Personal Details -->
 
 		<!-- Student Course Deails -->
@@ -270,7 +269,7 @@
 
 	<Student>
 		<!--Personal Details -->
-		<peronaldetails>
+		<personaldetails>
 			<StudentID>1112689</StudentID>
 			<StudentTitle>Mr</StudentTitle>
 			<Surname>Joshi</Surname>
@@ -279,7 +278,7 @@
 			<DateOfBirth>20 June 1983	</DateOfBirth>
 			<EMail>b.Joshi@our.ecu.edu.au</EMail>
 			<PhotoID>StudentPhotoID/Bhavin.jpg</PhotoID>
-		</peronaldetails>
+		</personaldetails>
 		<!-- End Personal Details -->
 
 		<!-- Student Course Deails -->
@@ -356,7 +355,7 @@
 
 	<Student>
 		<!--Personal Details -->
-		<peronaldetails>
+		<personaldetails>
 			<StudentID>2112689</StudentID>
 			<StudentTitle>Mr</StudentTitle>
 			<Surname>Skierka</Surname>
@@ -365,10 +364,10 @@
 			<DateOfBirth>3rd September 1985	</DateOfBirth>
 			<EMail>d.Skierka@our.ecu.edu.au</EMail>
 			<PhotoID>StudentPhotoID/Skierka.jpg</PhotoID>
-		</peronaldetails>
+		</personaldetails>
 		<!-- End Personal Details -->
 
-		<!-- Student Course Deails -->
+		<!-- Student Course Details -->
 		<CourseDetails>
 			<Course>
 				<code>U67</code>
@@ -429,7 +428,7 @@
 				<AddressLineTwo>Manchester Road</AddressLineTwo>
 				<AddressLineThree>N/A</AddressLineThree>
 				<Suburb>Manchester</Suburb>
-				<PostCode type="Post COde">M41 3ER</PostCode>
+				<PostCode type="Post Code">M41 3ER</PostCode>
 				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
 				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
 				<MobilePhone type="Mobile Phone">0493571916</MobilePhone>
@@ -443,7 +442,7 @@
 
 	<Student>
 		<!--Personal Details -->
-		<peronaldetails>
+		<personaldetails>
 			<StudentID>2312689</StudentID>
 			<StudentTitle>Mr</StudentTitle>
 			<Surname>Sim</Surname>
@@ -452,7 +451,7 @@
 			<DateOfBirth>3rd July 1981	</DateOfBirth>
 			<EMail>s.sims@our.ecu.edu.au</EMail>
 			<PhotoID>StudentPhotoID/Shane.jpg</PhotoID>
-		</peronaldetails>
+		</personaldetails>
 		<!-- End Personal Details -->
 
 		<!-- Student Course Deails -->
@@ -515,7 +514,7 @@
 				<AddressLineTwo>Along The Road</AddressLineTwo>
 				<AddressLineThree>N/A</AddressLineThree>
 				<Suburb>Perth</Suburb>
-				<PostCode type="Post COde">6034</PostCode>
+				<PostCode type="Post Code">6034</PostCode>
 				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
 				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
 				<MobilePhone type="Mobile Phone">0433671916</MobilePhone>
@@ -529,7 +528,7 @@
 
 	<Student>
 		<!--Personal Details -->
-		<peronaldetails>
+		<personaldetails>
 			<StudentID>3212689</StudentID>
 			<StudentTitle>Mr</StudentTitle>
 			<Surname>Nguyen</Surname>
@@ -538,7 +537,7 @@
 			<DateOfBirth>14th November 1988	</DateOfBirth>
 			<EMail>t.Nguyen@our.ecu.edu.au</EMail>
 			<PhotoID>StudentPhotoID/Tan.jpg</PhotoID>
-		</peronaldetails>
+		</personaldetails>
 		<!-- End Personal Details -->
 
 		<!-- Student Course Deails -->
@@ -600,7 +599,7 @@
 				<AddressLineTwo>Road Street</AddressLineTwo>
 				<AddressLineThree>N/A</AddressLineThree>
 				<Suburb>Perth</Suburb>
-				<PostCode type="Post COde">6014</PostCode>
+				<PostCode type="Post Code">6014</PostCode>
 				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
 				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
 				<MobilePhone type="Mobile Phone">0453871916</MobilePhone>
@@ -613,7 +612,7 @@
 
 	<Student>
 		<!--Personal Details -->
-		<peronaldetails>
+		<personaldetails>
 			<StudentID>5212689</StudentID>
 			<StudentTitle>Mr</StudentTitle>
 			<Surname>Milligan</Surname>
@@ -622,7 +621,7 @@
 			<DateOfBirth>24th August 1984	</DateOfBirth>
 			<EMail>r.milligan@our.ecu.edu.au</EMail>
 			<PhotoID>StudentPhotoID/Robert.jpg</PhotoID>
-		</peronaldetails>
+		</personaldetails>
 		<!-- End Personal Details -->
 
 		<!-- Student Course Deails -->
@@ -685,7 +684,7 @@
 				<AddressLineTwo>Zambian Street</AddressLineTwo>
 				<AddressLineThree>N/A</AddressLineThree>
 				<Suburb>Perth</Suburb>
-				<PostCode type="Post COde">6004</PostCode>
+				<PostCode type="Post Code">6004</PostCode>
 				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
 				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
 				<MobilePhone type="Mobile Phone">0483871916</MobilePhone>

@@ -1,0 +1,52 @@
+<!-- The Parent of Students is declared that there are multiple Student children -->
+<!ELEMENT Students (Student+)>
+
+<!--Each student has multiple children elements as defined-->
+<!ELEMENT Student (personaldetails+, CourseDetails+,addresses,PhotoID+)>
+
+<!-- Within-student personaldetails has multiple children elements as defined-->
+<!ELEMENT personaldetails (StudentID, StudentTitle, Surname, PreferredGivenNames, Gender, DateOfBirth, EMail)>
+
+<!--Each student has addresses has children elements as defined-->
+<!ELEMENT addresses (CorrespondanceAddress+, HomeAddress+)>
+<!--Within the student address details has multiple CorrespondanceAddress that has elements as defined-->
+<!ELEMENT CorrespondanceAddress (StartDate,AddressLineOne,AddressLineTwo,AddressLineThree,Suburb,PostCode,HomePhoneNo,WorkPhoneNo,MobilePhone,FaxNo)>
+<!--Within the student address details has multiple HomeAddress that has elements as defined-->
+<!ELEMENT HomeAddress (StartDate,AddressLineOne,AddressLineTwo,AddressLineThree,Suburb,PostCode,HomePhoneNo,WorkPhoneNo,MobilePhone,FaxNo)>
+
+<!--Each student has multiple course details as defined -->
+<!ELEMENT CourseDetails (Course+)>
+<!--Within thoughs couse details has multiple elements as defined-->
+<!ELEMENT Course (code+,HANDBOOKLINK+,Status+)>
+<!--Each student has multiple NoteDetais has Defined-->
+<!ELEMENT NoteDetails (Notes+)>
+
+<!--Each student personaldetails elements confirms to Parsed Character Data (PCDATA)-->
+<!ELEMENT StudentID (#PCDATA)>
+<!ELEMENT StudentTitle (#PCDATA)>
+<!ELEMENT Surname (#PCDATA)>
+<!ELEMENT PreferredGivenNames (#PCDATA)>
+<!ELEMENT Gender (#PCDATA)>
+<!ELEMENT DateOfBirth (#PCDATA)>
+<!ELEMENT EMail (#PCDATA)>
+<!ELEMENT PhotoID (#PCDATA)>
+
+<!--Each student CorrespondanceAddress and HomeAddress elements confirms to Parsed Character Data (PCDATA)-->
+<!ELEMENT StartDate (#PCDATA)>
+<!ELEMENT AddressLineOne (#PCDATA)>
+<!ELEMENT AddressLineTwo (#PCDATA)>
+<!ELEMENT AddressLineThree (#PCDATA)>
+<!ELEMENT Suburb (#PCDATA)>
+<!ELEMENT PostCode (#PCDATA)>
+<!ELEMENT HomePhoneNo (#PCDATA)>
+<!ELEMENT WorkPhoneNo (#PCDATA)>
+<!ELEMENT MobilePhone (#PCDATA)>
+<!ELEMENT FaxNo (#PCDATA)>
+
+<!--Each Course Code elements confirms to Parsed Character Data (PCDATA)-->
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT HANDBOOKLINK (#PCDATA)>
+<!ELEMENT Status (#PCDATA)>
+
+<!--Each Course Notes elements confirms to Parsed Character Data (PCDATA)-->
+<!ELEMENT Notes (#PCDATA)>

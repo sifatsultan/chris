@@ -33,14 +33,14 @@
 					<!--START Selet Taged data for Looping -->
 					<xsl:for-each select="Students/Student">
 						<!--Sort all displayed data by Surname -->
-						<xsl:sort select="peronaldetails/Surname" data-type="text"
+						<xsl:sort select="personaldetails/Surname" data-type="text"
 							order="ascending" />
 						<!-- Label Personal Details -->
 						<h2>Personal Details</h2>
 						<!-- Pull image from folder and display -->
 						<xsl:element name="img">
 							<xsl:attribute name="src">
-										<xsl:value-of select="peronaldetails/PhotoID" />
+										<xsl:value-of select="personaldetails/PhotoID" />
 									</xsl:attribute>
 						</xsl:element>
 						<div class="wrapper-personaldetails"> <!-- **** START Wrap all the Student Personal Details to the right of the 
@@ -51,43 +51,43 @@
 								<label>
 									StudentID:
 								</label>
-								<xsl:value-of select="peronaldetails/StudentID" /> <!-- Select dataset from XML and output nex to label -->
+								<xsl:value-of select="personaldetails/StudentID" /> <!-- Select dataset from XML and output nex to label -->
 							</p>
 							<p>
 								<label>
 									Title:
 								</label>
-								<xsl:value-of select="peronaldetails/StudentTitle" /> <!-- Select dataset from XML and output nex to label -->
+								<xsl:value-of select="personaldetails/StudentTitle" /> <!-- Select dataset from XML and output nex to label -->
 							</p>
 							<p>
 								<label>
 									Surname:
 								</label>
-								<xsl:value-of select="peronaldetails/Surname" /> <!-- Select dataset from XML and output nex to label -->
+								<xsl:value-of select="personaldetails/Surname" /> <!-- Select dataset from XML and output nex to label -->
 							</p>
 							<p>
 								<label>
 									Preferred Given Name:
 								</label>
-								<xsl:value-of select="peronaldetails/PreferredGivenNames" /> <!-- Select dataset from XML and output nex to label -->
+								<xsl:value-of select="personaldetails/PreferredGivenNames" /> <!-- Select dataset from XML and output nex to label -->
 							</p>
 							<p>
 								<label>
 									Gender:
 								</label>
-								<xsl:value-of select="peronaldetails/Gender" /> <!-- Select dataset from XML and output nex to label -->
+								<xsl:value-of select="personaldetails/Gender" /> <!-- Select dataset from XML and output nex to label -->
 							</p>
 							<p>
 								<label>
 									Date Of Birth:
 								</label>
-								<xsl:value-of select="peronaldetails/DateOfBirth" /> <!-- Select dataset from XML and output nex to label -->
+								<xsl:value-of select="personaldetails/DateOfBirth" /> <!-- Select dataset from XML and output nex to label -->
 							</p>
 							<p>
 								<label>
 									E-Mail:
 								</label>
-								<xsl:value-of select="peronaldetails/EMail" /> <!-- Select dataset from XML and output nex to label -->
+								<xsl:value-of select="personaldetails/EMail" /> <!-- Select dataset from XML and output nex to label -->
 							</p>
 
 						</div>								<!-- **** END Wrap all the Student Personal Details to the right of the image 
