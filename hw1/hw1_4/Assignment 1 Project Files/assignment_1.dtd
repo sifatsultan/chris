@@ -2,18 +2,18 @@
 <!ELEMENT Students (Student+)>
 
 <!--Each student has multiple children elements as defined-->
-<!ELEMENT Student (personaldetails+, CourseDetails+,addresses+)>
+<!ELEMENT Student (personaldetails+, CourseDetails+,Addresses+)>
 
 <!-- Within-student personaldetails has multiple children elements as defined-->
 <!ELEMENT personaldetails (StudentID+, StudentTitle+, Surname+, PreferredGivenNames+, Gender+, DateOfBirth+, EMail+,PhotoID+)>
 
 <!--Each student has multiple course details as defined -->
-<!ELEMENT CourseDetails (Course+)>
+<!ELEMENT CourseDetails (Course+, NoteDetails)>
 <!--Within the course details has multiple elements as defined-->
-<!ELEMENT Course (code+,HANDBOOKLINK+,Status+)>
+<!ELEMENT Course (code,HANDBOOKLINK,Status)>
 
 <!--Each student has addresses has children elements as defined-->
-<!ELEMENT addresses (CorrespondanceAddress+, HomeAddress+)>
+<!ELEMENT Addresses (CorrespondanceAddress+, HomeAddress+)>
 <!--Within the student address details has multiple CorrespondanceAddress that has elements as defined-->
 <!ELEMENT CorrespondanceAddress (StartDate,AddressLineOne,AddressLineTwo,AddressLineThree,Suburb,PostCode,HomePhoneNo,WorkPhoneNo,MobilePhone,FaxNo)>
 <!--Within the student address details has multiple HomeAddress that has elements as defined-->

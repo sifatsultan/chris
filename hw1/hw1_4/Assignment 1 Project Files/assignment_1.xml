@@ -63,7 +63,7 @@
 		</CourseDetails>
 
 
-		<addresses>
+		<Addresses>
 			<CorrespondanceAddress>
 				<!--Address Details - Correspondance Address details of Student One> -->
 				<StartDate>26th Febuary 2017</StartDate>
@@ -93,7 +93,7 @@
 				<FaxNo type="Fax Number">No Entry</FaxNo>
 			</HomeAddress>
 
-		</addresses>
+		</Addresses>
 
 	</Student>
 
