@@ -1,0 +1,215 @@
+FormatDisplayWebpage {
+	/*Display white background at this pixcel value*/
+	background-color: white;
+	width: 800px;
+	display: block;
+	/*Pad Text from border at this pixel value*/
+	padding: 20px;
+	/*Pad the border of the margin "bottom" - 30 pixcel*/
+	padding-bottom: 30px;
+	/*Margin of the Thin Lined Border to 4 pixcel size*/
+	border: 4px solid #0D3427;
+	/*Align Margin Box from Window to correct alignment by margin value*/
+	margin: 40px;
+	/*Align Text to the left*/
+	text-align: left;
+
+/* Background image ECU.png - top right*/	
+background-image: url("BoarderImage/Topboarderimg.png");
+background-repeat: no-repeat;
+background-position:top;
+display: block;
+}
+
+/* Format Table to specific hight and width - DIV Class */
+.AddressBoxtable{
+	margin-top: 40px;
+	border: 2px solid black;
+	width: 800px;
+	height: 500px;
+}
+/* Default Label syle */
+label{
+	font-weight:bold;
+}
+
+
+/*Start of Loop - loop each time and display text from XML assignment_1 as defined*/
+
+/*Use Text Tag from XML "assignment_1.xml" and display in below values and posisitons*/
+
+/**************** PERSONAL DETAILS LABEL SETTINGS *********************/
+/* Label Personal Details */
+h2{
+	color: purple;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+    left: 0px;
+    padding-top: 20px
+}
+/**************** PERSONAL DETAILS LABEL SETTINGS *********************/
+/* Students Image ID */
+img{
+	border: 1px solid black;
+	position: relative;
+	float: left;
+}
+
+/* Students Main Personal Details dataset */
+p{
+	color: black;
+	display: block;
+	font-size: 11px;
+	font-family: Arial,Helvetica, sans-serif;
+	position: relative;
+}
+
+/**************** COURSE TABLE SETTINGS *********************/
+
+/* Course Table Div Alightment Posistion*/
+.CourseTable {
+	width: 272px;
+	height: -250px;
+	position: relative;
+	top: -775px;
+	right: -500px;
+	background-color: AliceBlue;
+}
+/* Course Table Heading Font Size and settings*/
+.Heading{
+	font-size: 14px;
+	padding: 5px;
+	margin: 0;
+	margin-right: 40px;
+} 
+.StatusFont{
+	font-weight: bold;
+	color: blue;
+	margin: 0;
+}	
+/*Course Details Font Size and settings*/
+.CourseDetailsFont{
+	font-size: 12px;
+	padding: 5px;
+	margin: 0;
+	color: blue;
+}
+/**************** COURSE TABLE SETTINGS *********************/
+
+/* Shift the personal details of the student next to the image using Div *Define a selection* */
+
+.wrapper-personaldetails {
+	padding-left: 200px;
+}
+
+/* Address Details  Label*/
+h3{
+	color: purple;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+    padding-left: 20px;
+}
+/* Correspondance Details  Label*/
+h4{
+	color: purple;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+    padding-left: 20px;
+}
+
+
+/* Address Details Correspondance Address details - P-Class - Cange all to specific format*/
+.c-CorrespondanceAddress{
+	color: black;
+	display: block;
+	font-size: 11px;
+	font-family: Arial,Helvetica, sans-serif;
+	position: relative;
+	padding-left: 20px;
+ }
+
+/* Shift the Address details Phone Numbers next to the Address Detials using Div *Define a selection* */
+.wrapper-CorrespondancePhoneNumbers {
+	position: relative;
+	top: -98px;
+	right: -400px;
+}
+
+/* Address Details Correspondance Address details - P-AddressPhoneNumber Class - Cange  all to specific format */
+.c-addressPhoneNumbers{
+	color: black;
+	display: block;
+	font-size: 11px;
+	font-family: Arial,Helvetica, sans-serif;
+	position: relative;
+ }
+ 
+ /* Home Adress Details  Label*/
+h5{
+	color: purple;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+    padding-left: 20px;
+    top: -100px;
+}
+/* Home Details - c-HomeAddress Class - Cange  all to specific format */
+.c-HomeAddress{
+	color: black;
+	display: block;
+	font-size: 11px;
+	font-family: Arial,Helvetica, sans-serif;
+	position: relative;
+	padding-left: 20px;
+	top: -80px;
+ }
+/* Shift the Address details Phone Numbers next to the Address Detials using Div *Define a selection* */
+.wrapper-HomePhoneNumbers {
+	position: relative;
+	top: -173px;
+	right: -400px;
+}
+/* Home Details Phone Numbers - c-HomePhoneNumbers Class - Cange  all to specific format */
+.c-HomePhoneNumbers{
+	color: black;
+	display: block;
+	font-size: 11px;
+	font-family: Arial,Helvetica, sans-serif;
+	position: relative;
+}
+/* Course Count Font */
+
+/**************** COURSE COUNT SETTINGS *********************/
+.CourseCount{
+	padding-bottom: 40px;
+}
+/* Text for Student Courses Enrolled */
+h6{
+	color: purple;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}	
+/* Text for Student Notes */
+h7{
+	color: purple;
+	font-size: 16px;
+	font-weight: bold;
+}
+/**************** COURSE COUNT SETTINGS *********************/
+
+/**************** TOTAL STUDENT COUNT SETTINGS *********************/
+
+h8{
+	color: purple;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+/**************** TOTAL STUDENT COUNT SETTINGS *********************/
+/*End Student Form Text Display to the right of image*/

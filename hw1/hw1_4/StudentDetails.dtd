@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT students (student)>
+
+<!ELEMENT student (image,title,studentid,surname,preferred_name,given_name,gender,dateofbirth,email,notes,contact,course_attempts, home_address,co_address)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT studentid (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT preferred_name (#PCDATA)>
+<!ELEMENT given_name (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT dateofbirth (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT notes (note)>
+<!ELEMENT note (#PCDATA)>
+
+<!ELEMENT contact (home,work,mobile,fax,home2,work2,mobile2,fax2)>
+<!ELEMENT home (#PCDATA)>
+<!ELEMENT work (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+<!ELEMENT home2 (#PCDATA)>
+<!ELEMENT work2 (#PCDATA)>
+<!ELEMENT mobile2 (#PCDATA)>
+<!ELEMENT fax2 (#PCDATA)>
+
+<!ELEMENT course_attempts (course)>
+<!ELEMENT course (status,unit_code,courseURL)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT unit_code (#PCDATA)>
+<!ELEMENT courseURL (#PCDATA)>
+
+
+<!ELEMENT home_address (start_date,street1,suburb1,postcode1)>
+<!ELEMENT start_date (#PCDATA)>
+<!ELEMENT street1 (#PCDATA)>
+<!ELEMENT suburb1 (#PCDATA)>
+<!ELEMENT postcode1 (#PCDATA)>
+
+
+<!ELEMENT home_address (start_date,street2,suburb2,postcode2)>
+<!ELEMENT start_date (#PCDATA)>
+<!ELEMENT street1 (#PCDATA)>
+<!ELEMENT suburb1 (#PCDATA)>
+<!ELEMENT postcode1 (#PCDATA)>
+
