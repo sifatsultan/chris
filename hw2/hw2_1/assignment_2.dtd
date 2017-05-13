@@ -1,0 +1,59 @@
+<!-- The Parent of Students is declared that there are multiple Student childs or student datasets -->
+<!ELEMENT Students (Student+)>
+
+<!--Each student Data-set has multiple children elements as defined with more than one instance-->
+<!ELEMENT Student (personaldetails+, CourseDetails+, Addresses+)>
+
+<!-- Within-student personaldetails has multiple children elements as defined-->
+<!ELEMENT personaldetails (StudentID, StudentTitle, Surname, PreferredGivenNames, Gender, DateOfBirth, EMail,PhotoID)>
+
+<!--Each student has multiple course+ (more than one instance) details as defined -->
+<!ELEMENT CourseDetails (Course+,NoteDetails)>
+<!--Within the course details has elements as defined-->
+<!ELEMENT Course (code,HANDBOOKLINK,Status)>
+
+<!--Each student has Addresses has children elements as defined with more than one instance-->
+<!ELEMENT Addresses (CorrespondanceAddress+, HomeAddress+)>
+<!--Declaring Attributes for CorrespondanceAddress & HomeAddress as the value is character data "CDATA" -->
+<!ATTLIST PostCode type CDATA "Post Code">
+<!ATTLIST HomePhoneNo type CDATA "Home Phone">
+<!ATTLIST WorkPhoneNo type CDATA "Work Phone">
+<!ATTLIST MobilePhone type CDATA "Mobile Phone">
+<!ATTLIST FaxNo type CDATA "Fax Number">
+<!--Within the student address details has multiple CorrespondanceAddress that has elements as defined-->
+<!ELEMENT CorrespondanceAddress (StartDate,AddressLineOne,AddressLineTwo,AddressLineThree,Suburb,PostCode,HomePhoneNo,WorkPhoneNo,MobilePhone,FaxNo)>
+<!--Within the student address details has multiple HomeAddress that has elements as defined-->
+<!ELEMENT HomeAddress (StartDate,AddressLineOne,AddressLineTwo,AddressLineThree,Suburb,PostCode,HomePhoneNo,WorkPhoneNo,MobilePhone,FaxNo)>
+
+<!--Each student has multiple NoteDetais has Defined-->
+<!ELEMENT NoteDetails (Notes+)>
+
+<!--Each student personaldetails elements confirms to Parsed Character Data (PCDATA)-->
+<!ELEMENT PhotoID (#PCDATA)>
+<!ELEMENT StudentID (#PCDATA)>
+<!ELEMENT StudentTitle (#PCDATA)>
+<!ELEMENT Surname (#PCDATA)>
+<!ELEMENT PreferredGivenNames (#PCDATA)>
+<!ELEMENT Gender (#PCDATA)>
+<!ELEMENT DateOfBirth (#PCDATA)>
+<!ELEMENT EMail (#PCDATA)>
+
+<!--Each student CorrespondanceAddress and HomeAddress elements confirms to Parsed Character Data (PCDATA)-->
+<!ELEMENT StartDate (#PCDATA)>
+<!ELEMENT AddressLineOne (#PCDATA)>
+<!ELEMENT AddressLineTwo (#PCDATA)>
+<!ELEMENT AddressLineThree (#PCDATA)>
+<!ELEMENT Suburb (#PCDATA)>
+<!ELEMENT PostCode (#PCDATA)>
+<!ELEMENT HomePhoneNo (#PCDATA)>
+<!ELEMENT WorkPhoneNo (#PCDATA)>
+<!ELEMENT MobilePhone (#PCDATA)>
+<!ELEMENT FaxNo (#PCDATA)>
+
+<!--Each Course Code elements confirms to Parsed Character Data (PCDATA)-->
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT HANDBOOKLINK (#PCDATA)>
+<!ELEMENT Status (#PCDATA)>
+
+<!--Each Course Notes elements confirms to Parsed Character Data (PCDATA)-->
+<!ELEMENT Notes (#PCDATA)>

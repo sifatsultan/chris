@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 	<!--XML Document Declaration = version 1.0, Default Character set UTF-8 -->
+
+<!--Execute this XSLT style extenstion using the Display text code -->
+<?xml-stylesheet type="text/xsl" href="index.xslt"?>
+
+<!--Ignore Document type definition (DTD) -->
+<!--<!DOCTYPE Students SYSTEM "assignment_1.dtd"> NOT NEEDED IN ASSIGNMENT 2-->
+
+<!--Start Stored details of Students> -->
+<Students>
+
+	<!--*********************STUDENT ONE ******************************* -->
+
+	<Student>
+		<!--Personal Details -->
+		<personaldetails>
+			<StudentID>10344489</StudentID>
+			<StudentTitle>Mr</StudentTitle>
+			<Surname>Broome</Surname>
+			<PreferredGivenNames>Chris</PreferredGivenNames>
+			<Gender>Male</Gender>
+			<DateOfBirth>29th October 1982</DateOfBirth>
+			<EMail>cmbroome@our.ecu.edu.au</EMail>
+			<PhotoID>StudentPhotoID/ME.jpg</PhotoID>
+		</personaldetails>
+		<!-- End Personal Details -->
+
+		<!-- Student Course Details -->
+		<CourseDetails>
+			<Course>
+					<CourseANDID>10344489_U67</CourseANDID>
+					<code>U67</code>
+					<Name>U67 Bachelor of Information Technology</Name>
+					<TOTALCREDITS>360</TOTALCREDITS>
+					<CommencedDate>26th Febuary 2017</CommencedDate>
+					<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=U67&amp;year=2017
+					</HANDBOOKLINK>
+					<Status>Completed</Status>
+					
+					<Units>
+						<Unit>
+							<unit_code>CSP2103</unit_code>
+							<unit_name>Markup Language</unit_name>
+							<unit_year>2002</unit_year>
+							<unit_mark>82</unit_mark>
+							<unit_grade>HD</unit_grade>
+							<unit_credit_points>15</unit_credit_points>
+						</Unit>
+					
+						<Unit>
+							<unit_code>CSG2431</unit_code>
+							<unit_name>Interactive Web Development</unit_name>
+							<unit_year>2002</unit_year>
+							<unit_mark>77</unit_mark>
+							<unit_grade>D</unit_grade>
+							<unit_credit_points>15</unit_credit_points>						
+						</Unit>
+					
+						<Unit>
+							<unit_code>ENS1161</unit_code>
+							<unit_name>Computer Fundamentals</unit_name>
+							<unit_year>2001</unit_year>
+							<unit_mark>44</unit_mark>
+							<unit_grade>N</unit_grade>
+							<unit_credit_points>0</unit_credit_points>						
+						</Unit>
+					
+					</Units>
+					
+			</Course>
+
+			<Course>
+				<code>C26</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=C26&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+
+			<Course>
+				<code>Y78</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y78&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+			
+			<Course>
+				<code>Y20</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y20&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+			
+			<NoteDetails>
+				<Notes>This Student is Progressing Well</Notes>
+			</NoteDetails>
+		</CourseDetails>
+
+
+		<Addresses>
+			<CorrespondanceAddress>
+				<!--Address Details - Correspondance Address details of Student One> -->
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>Unit 17</AddressLineOne>
+				<AddressLineTwo>2 Molloy Promenade</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Joondalup</Suburb>
+				<PostCode type="Post Code">6027</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0424471917</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</CorrespondanceAddress>
+
+
+			<!--Address Details - Home Address details of Student One -->
+			<HomeAddress>
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>Unit 17</AddressLineOne>
+				<AddressLineTwo>2 Molloy Promenade</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Joondalup</Suburb>
+				<PostCode type="Post COde">6027</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0424471917</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</HomeAddress>
+
+		</Addresses>
+
+	</Student>
+
+	<!--*********************STUDENT TWO ******************************* -->
+
+	<Student>
+		<!--Personal Details -->
+		<personaldetails>
+			<StudentID>12244489</StudentID>
+			<StudentTitle>Mss</StudentTitle>
+			<Surname>Wen</Surname>
+			<PreferredGivenNames>Yushi</PreferredGivenNames>
+			<Gender>Female</Gender>
+			<DateOfBirth>27 September 1999</DateOfBirth>
+			<EMail>y.wen@our.ecu.edu.au</EMail>
+			<PhotoID>StudentPhotoID/yushi.jpg</PhotoID>
+		</personaldetails>
+		<!-- End Personal Details -->
+
+		<!-- Student Course Deails -->
+		<CourseDetails>
+			<Course>
+				<code>U67</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=U67&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+
+			<Course>
+				<code>C61</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=C61&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Complete</Status>
+			</Course>
+
+			<Course>
+				<code>K12</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=K12&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Discontinued</Status>
+			</Course>
+			
+			<Course>
+				<code>Y41</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y41&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+			
+			<NoteDetails>
+				<Notes>This Student is Progressing Well</Notes>
+				<Notes>This Student Needs to Improve on this Course</Notes>
+			</NoteDetails>
+		</CourseDetails>
+
+
+		<Addresses>
+			<CorrespondanceAddress>
+				<!--Address Details - Correspondance Address details of Student Two> -->
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>34</AddressLineOne>
+				<AddressLineTwo>Stree Lane</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Currembine</Suburb>
+				<PostCode type="Post Code">6027</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0424471916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</CorrespondanceAddress>
+
+
+			<!--Address Details - Home Address details of Student TWO -->
+			<HomeAddress>
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>34</AddressLineOne>
+				<AddressLineTwo>Street Lane</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Currembine</Suburb>
+				<PostCode type="Post Code">6027</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0424471916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</HomeAddress>
+		</Addresses>
+	</Student>
+
+	<!--*********************STUDENT THRESS ******************************* -->
+
+	<Student>
+		<!--Personal Details -->
+		<personaldetails>
+			<StudentID>1322489</StudentID>
+			<StudentTitle>Mr</StudentTitle>
+			<Surname>Sultan</Surname>
+			<PreferredGivenNames>Sifat</PreferredGivenNames>
+			<Gender>Male</Gender>
+			<DateOfBirth>27 January 1990</DateOfBirth>
+			<EMail>s.sultan@our.ecu.edu.au</EMail>
+			<PhotoID>StudentPhotoID/Sifat Sultan.jpg</PhotoID>
+		</personaldetails>
+		<!-- End Personal Details -->
+
+		<!-- Student Course Deails -->
+		<CourseDetails>
+			<Course>
+				<code>U67</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=U67&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+
+			<Course>
+				<code>C26</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=C26&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Discontinued</Status>
+			</Course>
+
+			<Course>
+				<code>Y78</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y78&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+			
+			<Course>
+				<code>Y20</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y20&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Discontinued</Status>
+			</Course>
+			
+			<NoteDetails>
+				<Notes>This Student is Needs to Catch Up</Notes>
+				<Notes>This Student Needs to Pay Semester 2 Fees</Notes>
+			</NoteDetails>
+		</CourseDetails>
+
+		<Addresses>
+			<CorrespondanceAddress>
+				<!--Address Details - Correspondance Address details of Student Three> -->
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>18</AddressLineOne>
+				<AddressLineTwo>Stree Lane</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Perth</Suburb>
+				<PostCode type="Post Code">6000</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0423571916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</CorrespondanceAddress>
+
+
+			<!--Address Details - Home Address details of Student Three -->
+			<HomeAddress>
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>18</AddressLineOne>
+				<AddressLineTwo>Street Lane</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Perth</Suburb>
+				<PostCode type="Post COde">6027</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0423571916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</HomeAddress>
+		</Addresses>
+	</Student>
+	<!--*********************STUDENT FOUR ******************************* -->
+
+	<Student>
+		<!--Personal Details -->
+		<personaldetails>
+			<StudentID>1112689</StudentID>
+			<StudentTitle>Mr</StudentTitle>
+			<Surname>Joshi</Surname>
+			<PreferredGivenNames>Bhavin</PreferredGivenNames>
+			<Gender>Male</Gender>
+			<DateOfBirth>20 June 1983	</DateOfBirth>
+			<EMail>b.Joshi@our.ecu.edu.au</EMail>
+			<PhotoID>StudentPhotoID/Bhavin.jpg</PhotoID>
+		</personaldetails>
+		<!-- End Personal Details -->
+
+		<!-- Student Course Deails -->
+		<CourseDetails>
+			<Course>
+				<code>U67</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=U67&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+
+			<Course>
+				<code>C26</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=C26&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Discontinued</Status>
+			</Course>
+
+			<Course>
+				<code>Y78</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y78&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+			
+			<Course>
+				<code>Y20</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y20&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+			
+			<NoteDetails>
+				<Notes>This Student is Trying</Notes>
+				<Notes>Needs To Re-Take the Course</Notes>
+				<Notes>Doing Ok</Notes>
+			</NoteDetails>
+		</CourseDetails>
+
+		<Addresses>
+			<CorrespondanceAddress>
+				<!--Address Details - Correspondance Address details of Student Four> -->
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>66</AddressLineOne>
+				<AddressLineTwo>Stree Place</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Perth</Suburb>
+				<PostCode type="Post Code">6048</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0443571916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</CorrespondanceAddress>
+
+
+			<!--Address Details - Home Address details of Student Four -->
+			<HomeAddress>
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>66</AddressLineOne>
+				<AddressLineTwo>Street Place</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Perth</Suburb>
+				<PostCode type="Post COde">6048</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0443571916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</HomeAddress>
+		</Addresses>
+
+	</Student>
+
+	<!--*********************STUDENT FIVE ******************************* -->
+
+	<Student>
+		<!--Personal Details -->
+		<personaldetails>
+			<StudentID>2112689</StudentID>
+			<StudentTitle>Mr</StudentTitle>
+			<Surname>Skierka</Surname>
+			<PreferredGivenNames>Daniel</PreferredGivenNames>
+			<Gender>Male</Gender>
+			<DateOfBirth>3rd September 1985	</DateOfBirth>
+			<EMail>d.Skierka@our.ecu.edu.au</EMail>
+			<PhotoID>StudentPhotoID/Skierka.jpg</PhotoID>
+		</personaldetails>
+		<!-- End Personal Details -->
+
+		<!-- Student Course Details -->
+		<CourseDetails>
+			<Course>
+				<code>U67</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=U67&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+
+			<Course>
+				<code>C26</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=C26&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Discontinued</Status>
+			</Course>
+
+			<Course>
+				<code>Y78</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y78&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+			
+			<Course>
+				<code>Y20</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y20&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Discontinued</Status>
+			</Course>
+			
+			<NoteDetails>
+				<Notes>This Student is Trying</Notes>
+				<Notes>Doing Well in this course</Notes>
+				<Notes>Needs to Pay Fees</Notes>
+				<Notes>Doing Ok</Notes>
+			</NoteDetails>
+		</CourseDetails>
+
+		<Addresses>
+			<CorrespondanceAddress>
+				<!--Address Details - Correspondance Address details of Student Five> -->
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>55</AddressLineOne>
+				<AddressLineTwo>Manachester Road</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Manchester</Suburb>
+				<PostCode type="Post Code">M41 3ER</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0493571916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</CorrespondanceAddress>
+
+
+			<!--Address Details - Home Address details of Student Five -->
+			<HomeAddress>
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>55</AddressLineOne>
+				<AddressLineTwo>Manchester Road</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Manchester</Suburb>
+				<PostCode type="Post Code">M41 3ER</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0493571916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</HomeAddress>
+		</Addresses>
+
+	</Student>
+
+	<!--*********************STUDENT SIX ******************************* -->
+
+	<Student>
+		<!--Personal Details -->
+		<personaldetails>
+			<StudentID>2312689</StudentID>
+			<StudentTitle>Mr</StudentTitle>
+			<Surname>Sim</Surname>
+			<PreferredGivenNames>Shane</PreferredGivenNames>
+			<Gender>Male</Gender>
+			<DateOfBirth>3rd July 1981	</DateOfBirth>
+			<EMail>s.sims@our.ecu.edu.au</EMail>
+			<PhotoID>StudentPhotoID/Shane.jpg</PhotoID>
+		</personaldetails>
+		<!-- End Personal Details -->
+
+		<!-- Student Course Deails -->
+		<CourseDetails>
+			<Course>
+				<code>U67</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=U67&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+
+			<Course>
+				<code>C26</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=C26&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Discontinued</Status>
+			</Course>
+
+			<Course>
+				<code>Y78</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y78&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+			
+			<Course>
+				<code>Y20</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y20&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+			
+			<NoteDetails>
+				<Notes>This Student is Trying</Notes>
+				<Notes>Doing Well in this course</Notes>
+				<Notes>Needs to Pay Fees</Notes>
+			</NoteDetails>
+		</CourseDetails>
+
+		<Addresses>
+			<CorrespondanceAddress>
+				<!--Address Details - Correspondance Address details of Student Six> -->
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>10</AddressLineOne>
+				<AddressLineTwo>Along The Road</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Perth</Suburb>
+				<PostCode type="Post Code">6034</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0433671916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</CorrespondanceAddress>
+
+
+			<!--Address Details - Home Address details of Student Six -->
+			<HomeAddress>
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>10</AddressLineOne>
+				<AddressLineTwo>Along The Road</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Perth</Suburb>
+				<PostCode type="Post Code">6034</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0433671916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</HomeAddress>
+		</Addresses>
+
+	</Student>
+
+	<!--*********************STUDENT SEVEN ******************************* -->
+
+	<Student>
+		<!--Personal Details -->
+		<personaldetails>
+			<StudentID>3212689</StudentID>
+			<StudentTitle>Mr</StudentTitle>
+			<Surname>Nguyen</Surname>
+			<PreferredGivenNames>Tan</PreferredGivenNames>
+			<Gender>Male</Gender>
+			<DateOfBirth>14th November 1988	</DateOfBirth>
+			<EMail>t.Nguyen@our.ecu.edu.au</EMail>
+			<PhotoID>StudentPhotoID/Tan.jpg</PhotoID>
+		</personaldetails>
+		<!-- End Personal Details -->
+
+		<!-- Student Course Details -->
+		<CourseDetails>
+			<Course>
+				<code>U67</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=U67&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+
+			<Course>
+				<code>C26</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=C26&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Discontinued</Status>
+			</Course>
+
+			<Course>
+				<code>Y78</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y78&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+			
+			<Course>
+				<code>Y20</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y20&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+			
+			<NoteDetails>
+				<Notes>This Student is Trying</Notes>
+				<Notes>Doing Well in this course</Notes>
+			</NoteDetails>
+		</CourseDetails>
+
+		<Addresses>
+			<CorrespondanceAddress>
+				<!--Address Details - Correspondance Address details of Student Seven> -->
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>44</AddressLineOne>
+				<AddressLineTwo>Road Street</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Perth</Suburb>
+				<PostCode type="Post Code">6014</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0453871916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</CorrespondanceAddress>
+
+
+			<!--Address Details - Home Address details of Student Seven -->
+			<HomeAddress>
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>44</AddressLineOne>
+				<AddressLineTwo>Road Street</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Perth</Suburb>
+				<PostCode type="Post Code">6014</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0453871916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</HomeAddress>
+		</Addresses>
+	</Student>
+
+	<!--*********************STUDENT EIGHT ******************************* -->
+
+	<Student>
+		<!--Personal Details -->
+		<personaldetails>
+			<StudentID>5212689</StudentID>
+			<StudentTitle>Mr</StudentTitle>
+			<Surname>Milligan</Surname>
+			<PreferredGivenNames>Robert</PreferredGivenNames>
+			<Gender>Male</Gender>
+			<DateOfBirth>24th August 1984	</DateOfBirth>
+			<EMail>r.milligan@our.ecu.edu.au</EMail>
+			<PhotoID>StudentPhotoID/Robert.jpg</PhotoID>
+		</personaldetails>
+		<!-- End Personal Details -->
+
+		<!-- Student Course Deails -->
+		<CourseDetails>
+			<Course>
+				<code>U67</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=U67&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+
+			<Course>
+				<code>C26</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=C26&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Completed</Status>
+			</Course>
+
+			<Course>
+				<code>Y78</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y78&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Discontinued</Status>
+			</Course>
+			
+			<Course>
+				<code>Y20</code>
+				<HANDBOOKLINK>http://www.ecu.edu.au/handbook/course?id=Y20&amp;year=2017
+				</HANDBOOKLINK>
+				<Status>Discontinued</Status>
+			</Course>
+			
+			<NoteDetails>
+				<Notes>This Student is Trying</Notes>
+				<Notes>Is Failing</Notes>
+				<Notes>Doing Well in this course</Notes>
+			</NoteDetails>
+		</CourseDetails>
+
+		<Addresses>
+			<CorrespondanceAddress>
+				<!--Address Details - Correspondance Address details of Student Eight -->
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>77</AddressLineOne>
+				<AddressLineTwo>Zambian Street</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Perth</Suburb>
+				<PostCode type="Post Code">6004</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0483871916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</CorrespondanceAddress>
+
+
+			<!--Address Details - Home Address details of Student Eight -->
+			<HomeAddress>
+				<StartDate>26th Febuary 2017</StartDate>
+				<AddressLineOne>77</AddressLineOne>
+				<AddressLineTwo>Zambian Street</AddressLineTwo>
+				<AddressLineThree>N/A</AddressLineThree>
+				<Suburb>Perth</Suburb>
+				<PostCode type="Post Code">6004</PostCode>
+				<HomePhoneNo type="Home Phone">No Entry</HomePhoneNo>
+				<WorkPhoneNo type="Work Phone">No Entry</WorkPhoneNo>
+				<MobilePhone type="Mobile Phone">0483871916</MobilePhone>
+				<FaxNo type="Fax Number">No Entry</FaxNo>
+			</HomeAddress>
+		</Addresses>
+	</Student>
+</Students>
+<!--End Of Display Border and Background and Margin -->
+
+<!--</FormatDisplayWebpage> -->
+

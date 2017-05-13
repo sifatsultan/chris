@@ -1,0 +1,457 @@
+/*************ASSIGNMENT 1 CSS PARAMETERS***************************************************************************/
+FormatDisplayWebpage {
+	/*Display white background at this pixcel value*/
+	background-color: white;
+	width: 800px;
+	display: block;
+	/*Pad Text from border at this pixel value*/
+	padding: 20px;
+	/*Pad the border of the margin "bottom" - 30 pixcel*/
+	padding-bottom: 30px;
+	/*Margin of the Thin Lined Border to 4 pixcel size*/
+	border: 4px solid #0D3427;
+	/*Align Margin Box from Window to correct alignment by margin value*/
+	margin: 40px;
+	/*Align Text to the left*/
+	text-align: left;
+
+/* Background image ECU.png - top right*/	
+background-image: url("BoarderImage/Topboarderimg.png");
+background-repeat: no-repeat;
+background-position:top;
+display: block;
+}
+
+/* Format Table to specific hight and width - DIV Class */
+.AddressBoxtable{
+	margin-top: 40px;
+	border: 2px solid black;
+	width: 800px;
+	height: 500px;
+}
+/* Default Label syle */
+label{
+	font-weight:bold;
+}
+
+
+/*Start of Loop - loop each time and display text from XML assignment_1 as defined*/
+
+/*Use Text Tag from XML "assignment_1.xml" and display in below values and posisitons*/
+
+/**************** PERSONAL DETAILS LABEL SETTINGS *********************/
+/* Label Personal Details */
+h2{
+	color: purple;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+    left: 0px;
+    padding-top: 20px
+}
+/**************** PERSONAL DETAILS LABEL SETTINGS *********************/
+/* Students Image ID */
+img{
+	border: 1px solid black;
+	position: relative;
+	float: left;
+}
+
+/* Students Main Personal Details dataset */
+p{
+	color: black;
+	display: block;
+	font-size: 11px;
+	font-family: Arial,Helvetica, sans-serif;
+	position: relative;
+}
+
+/**************** COURSE TABLE SETTINGS *********************/
+
+/* Course Table Div Alightment Posistion*/
+.CourseTable {
+	width: 272px;
+	height: -250px;
+	position: relative;
+	top: -775px;
+	right: -500px;
+	background-color: AliceBlue;
+}
+/* Course Table Heading Font Size and settings*/
+.Heading{
+	font-size: 14px;
+	padding: 5px;
+	margin: 0;
+	margin-right: 40px;
+} 
+.StatusFont{
+	font-weight: bold;
+	color: blue;
+	margin: 0;
+}	
+/*Course Details Font Size and settings*/
+.CourseDetailsFont{
+	font-size: 12px;
+	padding: 5px;
+	margin: 0;
+	color: blue;
+}
+/**************** COURSE TABLE SETTINGS *********************/
+
+/* Shift the personal details of the student next to the image using Div *Define a selection* */
+
+.wrapper-personaldetails {
+	padding-left: 200px;
+}
+
+/* Address Details  Label*/
+h3{
+	color: purple;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+    padding-left: 20px;
+}
+/* Correspondance Details  Label*/
+h4{
+	color: purple;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+    padding-left: 20px;
+}
+
+
+/* Address Details Correspondance Address details - P-Class - Cange all to specific format*/
+.c-CorrespondanceAddress{
+	color: black;
+	display: block;
+	font-size: 11px;
+	font-family: Arial,Helvetica, sans-serif;
+	position: relative;
+	padding-left: 20px;
+ }
+
+/* Shift the Address details Phone Numbers next to the Address Detials using Div *Define a selection* */
+.wrapper-CorrespondancePhoneNumbers {
+	position: relative;
+	top: -98px;
+	right: -400px;
+}
+
+/* Address Details Correspondance Address details - P-AddressPhoneNumber Class - Cange  all to specific format */
+.c-addressPhoneNumbers{
+	color: black;
+	display: block;
+	font-size: 11px;
+	font-family: Arial,Helvetica, sans-serif;
+	position: relative;
+ }
+ 
+ /* Home Adress Details  Label*/
+h5{
+	color: purple;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+    padding-left: 20px;
+    top: -100px;
+}
+/* Home Details - c-HomeAddress Class - Cange  all to specific format */
+.c-HomeAddress{
+	color: black;
+	display: block;
+	font-size: 11px;
+	font-family: Arial,Helvetica, sans-serif;
+	position: relative;
+	padding-left: 20px;
+	top: -80px;
+ }
+/* Shift the Address details Phone Numbers next to the Address Detials using Div *Define a selection* */
+.wrapper-HomePhoneNumbers {
+	position: relative;
+	top: -173px;
+	right: -400px;
+}
+/* Home Details Phone Numbers - c-HomePhoneNumbers Class - Cange  all to specific format */
+.c-HomePhoneNumbers{
+	color: black;
+	display: block;
+	font-size: 11px;
+	font-family: Arial,Helvetica, sans-serif;
+	position: relative;
+}
+/* Course Count Font */
+
+/**************** COURSE COUNT SETTINGS *********************/
+.CourseCount{
+	padding-bottom: 40px;
+}
+/* Text for Student Courses Enrolled */
+h6{
+	color: purple;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}	
+/* Text for Student Notes */
+h7{
+	color: purple;
+	font-size: 16px;
+	font-weight: bold;
+}
+/**************** COURSE COUNT SETTINGS *********************/
+
+/**************** TOTAL STUDENT COUNT SETTINGS *********************/
+
+h8{
+	color: purple;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+/**************** TOTAL STUDENT COUNT SETTINGS *********************/
+/*End Student Form Text Display to the right of image*/
+/*************ASSIGNMENT 1 CSS PARAMETERS***************************************************************************/
+
+/*************ASSIGNMENT 2 CSS PARAMETERS**************************************************************************/
+
+/********RESULTS BOX **********/
+.ResultsBox{
+	margin-top: 80px;
+	border: 2px solid black;
+	width: 800px;
+	height: 600px;
+}
+/********RESULTS BOX **********/
+
+/********COURSE NAME AlIGNMENT **********/
+.CourseName{
+	position: relative;
+	text-align: center;
+}
+/********COURSE NAME AlIGNMENT **********/
+
+/********COURSE NAME FONT**********/
+.CourseFont{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/********COURSE NAME FONT**********/
+
+/********CREDIT POINTS FONT NAME AlIGNMENT **********/
+.CreditPoints{
+	position: relative;
+	text-align: center;
+	margin-top: -15px;
+}
+/********CREDIT POINTS FONT NAME AlIGNMENT **********/
+
+/********CREDIT POINTS FONT **********/
+.CreditPointsFont{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/********CREDIT POINTS FONT **********/
+
+
+/*******TOTAL CREDIT POINTS FONT COLOUR***********/
+#TotalCreditFont{
+	color: blue;
+}
+/*******TOTAL CREDIT POINTS FONT COLOUR***********/
+
+/********COURSE DETAILS AlIGNMENT - STUDENT / STUDENT NUMBER - COMMENCED **********/
+.StudentResultDetails{
+	padding-left: 50px;
+}
+.StudentResultDetailsFont{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.CourseSpacing{
+	padding:5px;
+}
+
+#StudentDetailsFontColour{
+	color: green;
+}
+.StudentCommenced{
+	padding-left: 500px;
+	position: relative;
+	top: -40px;
+}
+.StudentCommencedFont{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#CommencedDateFont{
+	color: green;
+}
+/********COURSE DETAILS AlIGNMENT - STUDENT / STUDENT NUMBER - COMMENCED **********/
+
+.studentImg{
+	padding:50px;
+	position:relative;
+	top: -100px;
+}
+
+/************TOTAL CREDIT POINTS AlIGNMENT AND FONT*************/
+.TotalCreditPoints{
+	left:-160px;
+	bottom:-30px;
+	position:relative;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/************TOTAL CREDIT POINTS AlIGNMENT AND FONT*************/
+
+/***************TOTAL CREDIT POINTS NUMBER**********************/
+#TotalCreditPointsNum{
+	color: green;
+}
+/***************TOTAL CREDIT POINTS NUMBER**********************/
+
+/*******TOTAL CREDIT POINTS REMAINING AlIGNMENT AND FONT*********/
+.CreditPointsRemain{
+	left:-160px;
+	position:relative;
+	bottom:-35px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*******TOTAL CREDIT POINTS REMAINING AlIGNMENT AND FONT*********/
+
+/*******TOTAL CREDIT POINTS REMAINING NUMBER FONT*********/
+#CreditPointsRemainNum{
+	color: green;
+}
+/*******TOTAL CREDIT POINTS REMAINING NUMBER FONT*********/
+
+/*******TOTAL UNITS AlIGNMENT AND FONT*********/
+.TotalUnits{
+	left:-160px;
+	position:relative;
+	bottom:-40px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*******TOTAL UNITS AlIGNMENT AND FONT*********/
+
+/*******TOTAL UNITS NUMBER FONT*********/
+#TotalUnitsNum{
+	color: green;
+}
+/*******TOTAL UNITS NUMBER FONT*********/
+
+/*******TOTAL UNITS PASSED ALGMENT******/
+.TotalUnitsPass{
+	padding-left:230px;
+	position:relative;
+	top: 22px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+/*******TOTAL UNITS PASSED ALGMENT******/
+
+/*******COURSE AVERAGE AlIGNMENT*************/
+.CourseAverage{
+	left:-160px;
+	bottom:-28px;
+	position:relative;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*******COURSE AVERAGE AlIGNMENT*************/
+
+
+/*******COURSE AVERAGE NUMBER FONT*************/
+#CourseAverageNum{
+	color: green;
+}
+/*******COURSE AVERAGE NUMBER FONT*************/
+
+/*******BEST UNIT AlIGNMENT FONT*************/
+.BestUnit{
+	padding-left:191px;
+	font-weight: bold;
+	position:relative;
+	top: 10px;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*******BEST UNIT NUMBER FONT*************/
+#BestUnitNum{
+	color: green
+}
+/*******BEST UNIT NUMBER FONT*************/
+
+#LineBreak{
+	color:DarkViolet;
+	padding:50px;
+	font-weight: bolder;
+	padding-bottom:-40px;
+	font-size: 30px;
+}
+/*******BEST UNIT NUMBER FONT*************/
+
+/********UNIT TITLE FONT AlIGNMENT **********/
+.Unit-title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/********UNIT TITLE FONT AlIGNMENT **********/
+
+/********Units Div Alightment**********/
+.UnitsFormat{
+	padding-left: 20px;
+	text-align: center;
+}
+/********Units Div Alightment**********/
+
+/********COURSE UNITS AND SPACING FOR UNITS**********/
+.space{
+	margin-right:10px;
+	color: purple;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/********COURSE UNITS AND SPACING FOR UNITS**********/
+
+/********UNITS NAME AND UNIT YEAR SPACING **********/
+.Spaceing{
+	margin-right:10px;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/********UNITS NAME AND UNIT YEAR SPACING **********/
+
+/*******UNIT MARK FONT COLOR***********************/
+#UnitMark{
+	color:darkgreen;
+}
+/*******UNIT MARK FONT COLOR***********************/
+
+/********COMBINE SPAN (UNIQUALLY FORMAT) WITH ID CLASS (UNIQUALLY FORMAT)*************/
+span#creditnumber{
+	color: blue;	
+}
+/********COMBINE SPAN (UNIQUALLY FORMAT) WITH ID CLASS (UNIQUALLY FORMAT)*************/
+
+
+
+/*************ASSIGNMENT 2 CSS PARAMETERS**************************************************************************/
